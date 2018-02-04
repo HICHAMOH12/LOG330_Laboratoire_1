@@ -1,3 +1,4 @@
 sudo: required
   
-anguage: generic
+ -language: ruby
+ +language: generic

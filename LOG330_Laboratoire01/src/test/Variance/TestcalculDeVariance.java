@@ -6,13 +6,21 @@ import org.junit.Test;
 
 public class TestcalculDeVariance {
 	
-	private ArrayList<Integer> ValeurTest ;
+	private ArrayList<Integer> ValeurTest = new ArrayList<>();
 	
 	
 	   public class TestcalculEcartType {
 
 		@Test
 		public void TestlmiteInferieure() {
+			
+			ValeurTest.add(4);
+			ValeurTest.add(4);
+			ValeurTest.add(4);
+			ValeurTest.add(4);
+			ValeurTest.add(4);
+			ValeurTest.add(4);
+			ValeurTest.add(4);
 			
 		}
 		@Test

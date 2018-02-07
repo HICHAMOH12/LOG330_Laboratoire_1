@@ -18,6 +18,8 @@ public class TestcalculEcartType {
 		ValeurTest.add(4);
 		ValeurTest.add(4);
 		ValeurTest.add(4);
+		
+		
 	}
 	@Test
     public void TestlmiteSuperieure() {

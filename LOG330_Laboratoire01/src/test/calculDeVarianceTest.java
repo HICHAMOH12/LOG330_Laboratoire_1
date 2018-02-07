@@ -1,16 +1,15 @@
-package test.Variance;
+package test;
 
 import java.util.ArrayList;
 
 import org.junit.Test;
 
-public class calculeDeMoyenneTest {
+public class calculDeVarianceTest {
 	
-	private ArrayList<Integer> ValeurTest ;
+	private ArrayList<Integer> ValeurTest = new ArrayList<>();
 	
-
-	 
-		   
+	
+	   
 
 		@Test
 		public void TestlmiteInferieure() {
@@ -27,17 +26,18 @@ public class calculeDeMoyenneTest {
 		@Test
 	    public void TestlmiteSuperieure() {
 			
+			ValeurTest.add(4);
+			ValeurTest.add(4);
+			ValeurTest.add(4);
+			ValeurTest.add(4);
+			ValeurTest.add(4);
+			ValeurTest.add(4);
+			ValeurTest.add(4);
 			
-			ValeurTest.add(4);
-			ValeurTest.add(4);
-			ValeurTest.add(4);
-			ValeurTest.add(4);
-			ValeurTest.add(4);
-			ValeurTest.add(4);
-			ValeurTest.add(4);
 		}
 	    @Test
 	    public void TestValeurInvalide() {
+	    	
 	    	
 	    	ValeurTest.add(4);
 			ValeurTest.add(4);

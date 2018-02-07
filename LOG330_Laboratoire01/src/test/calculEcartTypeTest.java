@@ -1,4 +1,4 @@
-package test.Variance;
+package test;
 
 import java.util.ArrayList;
 

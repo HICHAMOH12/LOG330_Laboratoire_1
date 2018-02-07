@@ -4,12 +4,12 @@ import java.util.ArrayList;
 
 import org.junit.Test;
 
-public class TestcalculDeVariance {
+public class calculDeVarianceTest {
 	
 	private ArrayList<Integer> ValeurTest = new ArrayList<>();
 	
 	
-	   public class TestcalculEcartType {
+	   
 
 		@Test
 		public void TestlmiteInferieure() {
@@ -51,4 +51,4 @@ public class TestcalculDeVariance {
 	}
 
 
-}
+

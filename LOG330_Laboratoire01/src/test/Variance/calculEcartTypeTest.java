@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 import org.junit.Test;
 
-public class TestcalculEcartType {
+public class calculEcartTypeTest {
 	
 	private ArrayList<Integer> ValeurTest ;
 

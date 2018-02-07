@@ -4,12 +4,12 @@ import java.util.ArrayList;
 
 import org.junit.Test;
 
-public class TestcalculeDeMoyenne {
+public class calculeDeMoyenneTest {
 	
 	private ArrayList<Integer> ValeurTest ;
 	
 
-	   public class TestcalculEcartType {
+	 
 		   
 
 		@Test
@@ -51,4 +51,4 @@ public class TestcalculeDeMoyenne {
 	}
 
 
-}
+

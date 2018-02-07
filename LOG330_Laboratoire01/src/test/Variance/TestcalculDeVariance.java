@@ -26,9 +26,26 @@ public class TestcalculDeVariance {
 		@Test
 	    public void TestlmiteSuperieure() {
 			
+			ValeurTest.add(4);
+			ValeurTest.add(4);
+			ValeurTest.add(4);
+			ValeurTest.add(4);
+			ValeurTest.add(4);
+			ValeurTest.add(4);
+			ValeurTest.add(4);
+			
 		}
 	    @Test
 	    public void TestValeurInvalide() {
+	    	
+	    	
+	    	ValeurTest.add(4);
+			ValeurTest.add(4);
+			ValeurTest.add(4);
+			ValeurTest.add(4);
+			ValeurTest.add(4);
+			ValeurTest.add(4);
+			ValeurTest.add(4);
 			
 		}
 	}

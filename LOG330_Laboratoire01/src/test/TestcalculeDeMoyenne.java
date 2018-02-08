@@ -53,7 +53,7 @@ public class TestcalculeDeMoyenne {
 			ValeurTest.add(-1);
 			ValeurTest.add(-1);
 			
-			assertEquals(-1,000,calcul.calculeDeMoyenne() );
+			assertEquals(Double.NaN,calcul.calculeDeMoyenne() );
 			
 			
 			

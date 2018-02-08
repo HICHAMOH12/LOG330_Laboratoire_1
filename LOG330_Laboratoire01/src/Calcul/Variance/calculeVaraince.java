@@ -23,7 +23,7 @@ public class calculeVaraince {
 		
 	   // Ajouter les donnes de test dans le tableau 
 		
-		tableau.add(186);
+		/*tableau.add(186);
 		tableau.add(699);
 		tableau.add(132);
 		tableau.add(272);
@@ -32,8 +32,13 @@ public class calculeVaraince {
 		tableau.add(199);
 		tableau.add(1890);
 		tableau.add(788);
-		tableau.add(1601);
+		tableau.add(1601);*/
 		
+		tableau.add(1);
+		tableau.add(1);
+		tableau.add(1);
+		tableau.add(3);
+		tableau.add(3);
 
 		
 		

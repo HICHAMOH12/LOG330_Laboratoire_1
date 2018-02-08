@@ -20,11 +20,11 @@ public class TestcalculeDeVariance {
 		public void TestlmiteSuperieure() {
 			
 			
-			ValeurTest.add(488888889);
-			ValeurTest.add(455050505);
-			ValeurTest.add(978787868);
-			ValeurTest.add(566854338);
-			ValeurTest.add(999999999);
+			ValeurTest.add(8888889);
+			ValeurTest.add(5050505);
+			ValeurTest.add(78787868);
+			ValeurTest.add(66854338);
+			ValeurTest.add(99999999);
 			
 			assertEquals(697916319,8000,calcul.calculDeVariance() );
 			
@@ -39,9 +39,9 @@ public class TestcalculeDeVariance {
 			ValeurTest.add(1);
 			ValeurTest.add(3);
 			ValeurTest.add(3);
-			ValeurTest.add(3);
 			
-			assertEquals(1,000,calcul.calculDeVariance());
+			
+			assertEquals(1,2000,calcul.calculDeVariance());
 			
 		}
 	    @Test
@@ -53,7 +53,7 @@ public class TestcalculeDeVariance {
 			ValeurTest.add(-1);
 			ValeurTest.add(-1);
 			
-			assertEquals(-1,000,calcul.calculDeVariance() );
+			assertEquals(Double.NaN,calcul.calculDeVariance() );
 			
 			
 			

@@ -53,7 +53,7 @@ public class TestcalculEcartType{
 			ValeurTest.add(-1);
 			ValeurTest.add(-1);
 			
-			assertEquals(-1,000,calcul.calculEcartType());
+			assertEquals(Double.NaN,calcul.calculEcartType());
 			
 			
 			

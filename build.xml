@@ -89,8 +89,8 @@
    </target>
     </target>
     <target name="test">
-        <java classname="test" failonerror="true" fork="yes">
+        <junit classname="test" failonerror="true" fork="yes">
             <classpath refid="run.test.classpath"/>
-        </java>
+        </junit>
     </target>
 </project>

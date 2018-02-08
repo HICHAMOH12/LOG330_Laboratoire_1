@@ -41,7 +41,6 @@
             </fileset>
         </copy>
     </target>
-      
     <target name="clean">
         <delete dir="target/classes"/>
     </target>

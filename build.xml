@@ -77,10 +77,20 @@
         <java classname="Calcul.Variance.InterfaceUtilisateur" failonerror="true" fork="yes">
             <classpath refid="run.InterfaceUtilisateur (2).classpath"/>
         </java>
+      <target name="test" depends="compile">
+      <mkdir dir="${report.dir}" />
+      <junit printsummary="yes">
+         <classpath>
+            <path refid="classpath" />
+         </classpath>
+         <formatter type="xml" />
+         <test name="test" todir="${report.dir}" haltonfailure="yes" />
+      </junit>
+   </target>
     </target>
     <target name="test">
-        <java classname="Calcul.Variance.test" failonerror="true" fork="yes">
+        <junit classname="test" failonerror="true" fork="yes">
             <classpath refid="run.test.classpath"/>
-        </java>
+        </junit>
     </target>
 </project>

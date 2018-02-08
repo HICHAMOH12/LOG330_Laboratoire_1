@@ -1,3 +1,6 @@
 language: java
+script:
+  - mvn verify --file $SUBDIR/pom.xml -Ptravis --update-snapshots --settings .travis.settings.xml -e
 
+jdk: oraclejdk8
 

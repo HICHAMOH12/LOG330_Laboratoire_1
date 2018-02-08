@@ -41,17 +41,7 @@
             </fileset>
         </copy>
     </target>
-      <target name="junit" depends="compile">
-        <junit printsummary="on" fork="true" haltonfailure="no" >
-            <classpath refid="junit.class.path" />
-            <formatter type="xml" />
-              <batchtest todir="${test.report.dir}">
-              <fileset dir="${src.dir}">
-               <include name="**/*Tests.java" />
-        </fileset>
-      </batchtest>
-    </junit>
-  </target>
+      
     <target name="clean">
         <delete dir="target/classes"/>
     </target>

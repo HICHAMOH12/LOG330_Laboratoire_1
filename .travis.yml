@@ -2,6 +2,6 @@ language: java
 jdk:
   - oraclejdk8
 
-script: ant test
+script: ant build
 
 

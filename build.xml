@@ -89,7 +89,7 @@
    </target>
     </target>
     <target name="test">
-        <java classname="Calcul.Variance.test" failonerror="true" fork="yes">
+        <java classname="test" failonerror="true" fork="yes">
             <classpath refid="run.test.classpath"/>
         </java>
     </target>

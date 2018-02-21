@@ -1,5 +1,5 @@
 
-package Calcul.Variance;
+package Calcul;
 
 import java.text.DecimalFormat;
 import java.util.ArrayList;
@@ -8,7 +8,7 @@ import java.util.ArrayList;
  * @author HICHAM
  * Description : cette classe permet de verifier les calcules de variance .
  */
-public class calculeVaraince {
+public class calcule {
 
 	/**
 	 * @param args

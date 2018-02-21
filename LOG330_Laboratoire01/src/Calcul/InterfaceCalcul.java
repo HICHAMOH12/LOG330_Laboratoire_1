@@ -1,4 +1,6 @@
-package Calcul.Variance;
+package Calcul;
+
+import java.util.List;
 
 /**
  * @author HICHAM
@@ -10,5 +12,6 @@ public interface InterfaceCalcul {
 	public double calculeDeMoyenne();
 	public double calculDeVariance();
 	public double calculEcartType();
+	public double calculCorrelation();
 
 }

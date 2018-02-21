@@ -1,6 +1,7 @@
-package Calcul.Variance;
+package Calcul;
 
 import java.util.ArrayList;
+import java.util.List;
 
 /**
  * @author HICHAM
@@ -15,6 +16,11 @@ public class CalculImplementation implements InterfaceCalcul{
 	private double Distance;
 	private double DistanceCarree ;
 	private ArrayList<Integer> DonnerCsv ;
+	private ArrayList<Double> firstList;
+	private ArrayList<Double> secondList;
+	private double multiplicationList ;
+	
+	
 
 	public CalculImplementation(ArrayList<Integer> donnerCsv) {
 		
@@ -61,5 +67,22 @@ public class CalculImplementation implements InterfaceCalcul{
 		
 		return calculEcartType;
 	}
+
+
+	@Override
+	public double calculCorrelation() {
+		
+		for (int i = 0; i < firstList.size(); i++) {
+			
+			multiplicationList += firstList.get(i)*secondList.get(i);
+			
+		}
+		
+		
+		return 0;
+	}
+
+  
+	
 
 }
